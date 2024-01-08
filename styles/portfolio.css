@@ -2,10 +2,50 @@ body{
     font-family: 'lato' sans-serif;
     font-family: 'Open Sans' sans-serif;
 }
+.text-primary{
+    color: orangered;
+}
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: orangered;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700px;
+    padding: 15px 35px;
+
 }
 .nav-title{
     color: blue;
+    font-size: 45px;
     font-weight: 800px;
+}
+nav> ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 51px;
+}
+nav a{
+    text-decoration: none;
+    color: cadetblue;
+
+}
+.header{
+    background-color: antiquewhite;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+        width: 500px;
 }
